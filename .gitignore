@@ -1,0 +1,56 @@
+##############################
+# Node.js / Express (backend)
+##############################
+backend/node_modules/
+backend/.env
+backend/package-lock.json
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# logs
+backend/logs
+*.log
+*.log.*
+
+# runtime data
+backend/pids
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# coverage directory
+backend/coverage
+
+##############################
+# React (frontend)
+##############################
+frontend/node_modules/
+frontend/.env
+frontend/package-lock.json
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# production build
+frontend/build/
+frontend/dist/
+
+# testing
+frontend/coverage
+
+##############################
+# General (both)
+##############################
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+
+# OS
+*.tmp
+*.bak
